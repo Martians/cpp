@@ -1,3 +1,0 @@
-git add .
-git commit -m "fix more"
-git push 234 local:dev
