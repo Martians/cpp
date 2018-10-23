@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Workspace/local/work/src/wintest/src/test.cpp
+Test.hpp
+/mnt/d/Workspace/local/work/src/wintest/src/Test.hpp
+assert.h
+-
+
