@@ -1,2 +1,8 @@
-git fetch 234
-git merge 234/dev
+#!/bin/sh
+
+if [ -e ../code/pull ]; then
+	sh ../code/pull
+else
+	git fetch origin
+	git merge origin/master
+fi
