@@ -317,7 +317,7 @@ namespace common {
 			}
 		}
 
-		/** defualt lock */
+		/** default lock */
 		static const int c_wlock = -100000000;
 	};
 }
