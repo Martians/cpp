@@ -1,0 +1,3 @@
+D:/Workspace/local/work/src/object/cmake-build-debug/CMakeFiles/object.dir
+D:/Workspace/local/work/src/object/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Workspace/local/work/src/object/cmake-build-debug/CMakeFiles/rebuild_cache.dir

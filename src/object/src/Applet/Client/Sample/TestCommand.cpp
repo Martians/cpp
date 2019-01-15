@@ -1,4 +1,5 @@
 
+#include <iostream>
 #include "Applet/Client/ConfigBase.hpp"
 #include "Applet/Client/Command.hpp"
 

@@ -6,7 +6,7 @@ using std::string;
 
 #include "Common/Container.hpp"
 #include "Common/Cond.hpp"
-#include "ObjectService/Object.hpp"
+#include "Service/ObjectService/Object.hpp"
 
 using namespace common;
 

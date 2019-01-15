@@ -1,1 +1,4 @@
-WSL not found at: C:\Users\Long\AppData\Local\Microsoft\WindowsApps\ubuntu.exe Configure
+"D:\Program Files\cmake-3.12.1-win64-x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe" "-DCMAKE_CXX_COMPILER=D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe" -G "CodeBlocks - MinGW Makefiles" D:\Workspace\local\work\src\object
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Workspace/local/work/src/object/cmake-build-debug
