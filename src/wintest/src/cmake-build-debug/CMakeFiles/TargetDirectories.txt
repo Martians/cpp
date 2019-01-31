@@ -1,3 +1,0 @@
-/mnt/d/Workspace/local/work/src/wintest/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/Workspace/local/work/src/wintest/src/cmake-build-debug/CMakeFiles/test1.dir
-/mnt/d/Workspace/local/work/src/wintest/src/cmake-build-debug/CMakeFiles/edit_cache.dir

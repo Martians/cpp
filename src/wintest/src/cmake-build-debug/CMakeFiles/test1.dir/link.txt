@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -O0 -Wall -g -g   CMakeFiles/test1.dir/test.cpp.o  -o test1 
