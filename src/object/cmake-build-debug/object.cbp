@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="object"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/darwin/base/code/github/work/src/object/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/darwin/base/code/github/work/src/object/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/darwin/base/code/github/work/src/object/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object">
+				<Option output="/Users/darwin/base/code/github/work/src/object/cmake-build-debug/object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darwin/base/code/github/work/src/object/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/../../include"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance/Temporary"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Applet/Client"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/CodeHelper"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Common"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Perform"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Sample/thrift/gen-cpp"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService/ObjectClient"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService/UnitTest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 object"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object/fast">
+				<Option output="/Users/darwin/base/code/github/work/src/object/cmake-build-debug/object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darwin/base/code/github/work/src/object/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/../../include"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Advance/Temporary"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Applet/Client"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/CodeHelper"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Common"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Perform"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Sample/thrift/gen-cpp"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService/ObjectClient"/>
+					<Add directory="/Users/darwin/base/code/github/work/src/object/src/Service/ObjectService/UnitTest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 object/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/darwin/base/code/github/work/src/object/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/AppHelper.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/AppHelper.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Barrier.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/BaseAlloter.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/BaseAlloter.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/BaseBuffer.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/BaseBuffer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer/ByteBuffer.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer/ByteBuffer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer/CycleBuffer.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Buffer/CycleBuffer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/BufferStream.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/ByteOrder.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Container.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Coordinator.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Define.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/DynBuffer.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/DynBuffer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/DynChunk.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/FastHash.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/FastHash.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Functional.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/List.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/List.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/MemPool.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/MemPool.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Pointer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Simple.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/SingleList.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Singleton.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Temporary/Array.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/TypeAlloter.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/Util.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Advance/WrapAlloter.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/ClientBase.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/ClientBase.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/ClientManage.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/ClientManage.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/Command.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/Command.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/ConfigBase.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/Interface.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/Sample/TestClient.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Applet/Client/Sample/TestCommand.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CMakeLists.txt">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CodeHelper/Bitset.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CodeHelper/Refer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CodeHelper/RunStat.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CodeHelper/Trigger.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/CodeHelper/Validate.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Atomic.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/CodeHelper.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Common.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Cond.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Const.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Container.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/DataType.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Define.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Display.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Display.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/File.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/File.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Global.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/LogHelper.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Logger.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Logger.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Main.cxx">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Mutex.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Reference.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Reference.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Simple.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/String.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/String.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Thread.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/ThreadBase.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/ThreadInfo.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/ThreadInfo.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/ThreadPool.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/ThreadPool.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Time.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Type.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/TypeQueue.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Common/Util.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Debug.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/LogHelper.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Mock.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/MockBase.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/MockBase.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Random.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Random.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Source.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Source.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/StatThread.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/StatThread.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Statistic.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/TestUtil.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/TestUtil.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Timer.cpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/src/Perform/Timer.hpp">
+			<Option target="object"/>
+		</Unit>
+		<Unit filename="/Users/darwin/base/code/github/work/src/object/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
