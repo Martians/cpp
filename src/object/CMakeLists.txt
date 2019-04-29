@@ -4,114 +4,24 @@ project(object)
 set(CMAKE_CXX_STANDARD 14)
 cmake_minimum_required(VERSION 3.5)
 
-include_directories(src)
-include_directories(../../include)
+option(DEBUG "debug for gdb" ON)
 
+if(DEBUG)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+else()
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+endif()
+
+
+
+include_directories(../../../3rd/include)
+
+include_directories(src)
 include_directories(src/Advance)
 include_directories(src/Advance/Buffer)
-include_directories(src/Advance/Temporary)
-include_directories(src/Applet/Client)
 include_directories(src/CodeHelper)
 include_directories(src/Common)
 include_directories(src/Perform)
 
 
-add_executable(object
-        src/Advance/Buffer/ByteBuffer.cpp
-        src/Advance/Buffer/ByteBuffer.hpp
-        src/Advance/Buffer/CycleBuffer.cpp
-        src/Advance/Buffer/CycleBuffer.hpp
-        src/Advance/Temporary/Array.hpp
-        src/Advance/AppHelper.cpp
-        src/Advance/AppHelper.hpp
-        src/Advance/Barrier.hpp
-        src/Advance/BaseAlloter.cpp
-        src/Advance/BaseAlloter.hpp
-        src/Advance/BaseBuffer.cpp
-        src/Advance/BaseBuffer.hpp
-        src/Advance/BufferStream.hpp
-        src/Advance/ByteOrder.hpp
-        src/Advance/Container.hpp
-        src/Advance/Coordinator.hpp
-        src/Advance/Define.hpp
-        src/Advance/DynBuffer.cpp
-        src/Advance/DynBuffer.hpp
-        src/Advance/DynChunk.hpp
-        src/Advance/FastHash.cpp
-        src/Advance/FastHash.hpp
-        src/Advance/Functional.hpp
-        src/Advance/List.cpp
-        src/Advance/List.hpp
-        src/Advance/MemPool.cpp
-        src/Advance/MemPool.hpp
-        src/Advance/Pointer.hpp
-        src/Advance/Simple.cpp
-        src/Advance/SingleList.hpp
-        src/Advance/Singleton.hpp
-        src/Advance/TypeAlloter.hpp
-        src/Advance/Util.hpp
-        src/Advance/WrapAlloter.hpp
-        src/Applet/Client/Sample/TestClient.cpp
-        src/Applet/Client/Sample/TestCommand.cpp
-        src/Applet/Client/ClientBase.cpp
-        src/Applet/Client/ClientBase.hpp
-        src/Applet/Client/ClientManage.cpp
-        src/Applet/Client/ClientManage.hpp
-        src/Applet/Client/Command.cpp
-        src/Applet/Client/Command.hpp
-        src/Applet/Client/ConfigBase.hpp
-        src/Applet/Client/Interface.hpp
-        src/CodeHelper/Bitset.hpp
-        src/CodeHelper/Refer.hpp
-        src/CodeHelper/RunStat.hpp
-        src/CodeHelper/Trigger.hpp
-        src/CodeHelper/Validate.hpp
-        src/Common/Atomic.hpp
-        src/Common/CodeHelper.hpp
-        src/Common/Common.hpp
-        src/Common/Cond.hpp
-        src/Common/Const.hpp
-        src/Common/Container.hpp
-        src/Common/DataType.hpp
-        src/Common/Define.hpp
-        src/Common/Display.cpp
-        src/Common/Display.hpp
-        src/Common/File.cpp
-        src/Common/File.hpp
-        src/Common/Global.hpp
-        src/Common/Logger.cpp
-        src/Common/Logger.hpp
-        src/Common/LogHelper.hpp
-        src/Common/Main.cxx
-        src/Common/Mutex.hpp
-        src/Common/Reference.cpp
-        src/Common/Reference.hpp
-        src/Common/Simple.cpp
-        src/Common/String.cpp
-        src/Common/String.hpp
-        src/Common/Thread.hpp
-        src/Common/ThreadBase.hpp
-        src/Common/ThreadInfo.cpp
-        src/Common/ThreadInfo.hpp
-        src/Common/ThreadPool.cpp
-        src/Common/ThreadPool.hpp
-        src/Common/Time.hpp
-        src/Common/Type.hpp
-        src/Common/TypeQueue.hpp
-        src/Common/Util.hpp
-        src/Perform/Debug.hpp
-        src/Perform/LogHelper.hpp
-        src/Perform/Mock.hpp
-        src/Perform/MockBase.cpp
-        src/Perform/MockBase.hpp
-        src/Perform/Random.cpp
-        src/Perform/Random.hpp
-        src/Perform/Source.cpp
-        src/Perform/Source.hpp
-        src/Perform/Statistic.hpp
-        src/Perform/StatThread.cpp
-        src/Perform/StatThread.hpp
-        src/Perform/TestUtil.cpp
-        src/Perform/TestUtil.hpp
-        src/Perform/Timer.cpp
-        src/Perform/Timer.hpp)
+
